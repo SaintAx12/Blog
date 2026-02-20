@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lord of the Mysteries</title>
+    <meta name="description" content="Blog" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --eerie-bg: #181829;
+            --eerie-accent: #3a2e4d;
+            --eerie-highlight: #7fffd4;
+            --eerie-purple: #4b2067;
+            --eerie-green: #3e5c4b;
+            --eerie-blue: #232c3d;
+            --eerie-text: #e0e6f7;
+            --eerie-muted: #a3adc2;
+        }
+        body {
+            background: var(--eerie-bg);
+            color: var(--eerie-text);
+        }
+        .navbar, .bg-light, .border-top, .border-bottom {
+            background: var(--eerie-blue) !important;
+            border-color: var(--eerie-purple) !important;
+        }
+        .navbar-brand, .nav-link, .navbar-nav .nav-link.active {
+            color: var(--eerie-highlight) !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: var(--eerie-green) !important;
+        }
+        .hero {
+            background: linear-gradient(180deg, rgba(75,32,103,0.18), transparent);
+        }
+        .profile-img {
+            width:140px; height:140px; object-fit:cover; border-radius:50%; border:6px solid var(--eerie-highlight); box-shadow:0 6px 18px rgba(127,255,212,0.18);
+        }
+        .project-card {
+            background: var(--eerie-accent);
+            border: 1.5px solid var(--eerie-purple);
+        }
+        .project-card img {
+            height:160px; object-fit:cover; border-bottom: 2px solid var(--eerie-purple);
+        }
+        .card-title, .h3, h1, h2, h5, h3 {
+            color: var(--eerie-highlight) !important;
+        }
+        .btn-primary, .btn-primary:active, .btn-primary:focus {
+            background: var(--eerie-purple) !important;
+            border-color: var(--eerie-highlight) !important;
+            color: #fff !important;
+        }
+        .btn-outline-primary {
+            color: var(--eerie-highlight) !important;
+            border-color: var(--eerie-highlight) !important;
+        }
+        .btn-outline-primary:hover {
+            background: var(--eerie-highlight) !important;
+            color: var(--eerie-bg) !important;
+        }
+        .btn-outline-secondary {
+            color: var(--eerie-green) !important;
+            border-color: var(--eerie-green) !important;
+        }
+        .btn-outline-secondary:hover {
+            background: var(--eerie-green) !important;
+            color: #fff !important;
+        }
+        .form-control, .form-control:focus {
+            background: #232c3d;
+            color: var(--eerie-text);
+            border-color: var(--eerie-purple);
+        }
+        .form-label, .invalid-feedback {
+            color: var(--eerie-highlight);
+        }
+        .text-muted, small, .card-text {
+            color: var(--eerie-muted) !important;
+        }
+        footer {
+            background: var(--eerie-blue) !important;
+            color: var(--eerie-highlight) !important;
+        }
+        @media (max-width:576px) { .profile-img { width:110px; height:110px; } }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">The Beyonder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mystic Abilities">Mystic Abilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero py-5">
+        <div class="container d-md-flex align-items-center gap-4">
+            <div class="text-center text-md-start">
+                <img src="https://i.pinimg.com/originals/e5/19/87/e519874a076e8071f9a829ce71b206a6.jpg" alt="Profile" class="profile-img mb-3 d-inline-block"/>
+            </div>
+            <div>
+                <h1 class="display-5 fw-bold mb-2">Ryan Calonia</h1>
+                <p class="lead text-muted mb-3">The Fool that doesn’t belong to this era, The Mysterious ruler above the gray fog, The King of Yellow And Black who wields good luck.</p>
+                <p>
+                    <a href="#mystic Abilities" class="btn btn-primary me-2">See Abilities</a>
+                    <a href="#contact" class="btn btn-outline-primary">Contact Me</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <section id="about" class="mb-5">
+                <h2 class="h3 mb-3">About</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <p>I was once an ordinary man, until fate pulled me into a hidden world of secrets, mysticism, and dangers beyond imagination. I tread carefully between light and shadow, always observing, always planning. Some know me as The Fool—a figure of mystery, guiding others from the shadows, while walking my own path through a world full of hidden truths.</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <a href="#contact" class="btn btn-outline-secondary">Hire Beyonder</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mystic Abilities" class="mb-5">
+                <h2 class="h3 mb-3">Mystic Abilities</h2>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card project-card shadow-sm h-100">
+                            <img src="https://th.bing.com/th?id=OIF.tLALqor0X%2fptN8T4C5NHfg&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Mystic Ability 1">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Divination</h5>
+                                <p class="card-text text-muted">Seeking hidden knowledge or predicting the future through mystical or symbolic</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-sm btn-primary">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card project-card shadow-sm h-100">
+                            <img src="https://img.freepik.com/premium-photo/round-bullet-generated-by-ai_153912-19951.jpg" class="card-img-top" alt="Mystic Ability 2">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Spirit Bullet</h5>
+                                <p class="card-text text-muted">A bullet that can paralyze enemies on impact.</p>
+                                <div class="mt-auto"><a href="#" class="btn btn-sm btn-primary">View</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card project-card shadow-sm h-100">
+                            <img src="https://fwmedia.fandomwire.com/wp-content/uploads/2025/06/25025715/image-598.png" class="card-img-top" alt="Mystic Ability 3">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Purification</h5>
+                                <p class="card-text text-muted">Able to see, purify, destroy or interfere with spiritual connections to some degree</p>
+                                <div class="mt-auto"><a href="#" class="btn btn-sm btn-primary">View</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2 class="h3 mb-3">Contact</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                                <div class="invalid-feedback">Please enter a valid email.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                                <div class="invalid-feedback">Please enter a message.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-muted">Alternatively, email me at <a href="mailto:ryancalonia@gmail.com">ryancalonia@gmail.com</a> or connect on Facebook.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-light border-top py-4">
+        <div class="container text-center">
+            <small class="text-muted">© 2026 Beyonder • School Purposes</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation')
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    } else {
+                        event.preventDefault();
+                        alert('Thanks! This demo form does not submit — replace with your form endpoint.');
+                        form.reset();
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+
+</body>
+</html>
